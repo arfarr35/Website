@@ -1,0 +1,241 @@
+body {
+    background-image: url("background.jpg");
+    color: #A8A8A8;
+    font-family: 'Amatic SC', cursive;
+    font-size: 150%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Cabin Sketch', cursive;
+    color: #A8A8A8;
+	text-align: center;
+	border-bottom: 1px solid #A8A8A8;
+ 	margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
+h4 {
+    color: #A8A8A8;
+	text-align: center;
+    margin-top: 1px;
+    margin-left: 0em 100%;
+	font-family: 'Cabin Sketch', serif;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin-top: -8px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.hall {
+	font-size: 200%;	
+}
+
+.pheader {
+	font-size: 200%;
+}
+
+LINKS
+a:link {
+    color: #A8A8A8;
+}
+
+a:visited {
+    color: #A8A8A8;
+}
+   
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+    color: #A8A8A8
+    
+}
+
+.twitter {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    margin: auto;
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.twitter:hover {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin: auto;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.google {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    margin: auto;
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.google:hover {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin: auto;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+iframe {
+    display: block;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border: 0;
+}
+
+.slideExpandUp{
+    margin: auto;
+    animation-name: slideExpandUp;
+    -webkit-animation-name: slideExpandUp;  
+
+    animation-duration: 2s;   
+    -webkit-animation-duration: 2s;
+
+    animation-timing-function: ease-out;    
+    -webkit-animation-timing-function: ease-out;
+
+    visibility: visible !important; 
+}
+
+@keyframes slideExpandUp {
+    20% {
+        transform: translateY(100%) scaleX(0.5);
+    }
+    30%{
+        transform: translateY(-8%) scaleX(0.5);
+    }   
+    40%{
+        transform: translateY(2%) scaleX(0.7);
+    }
+    50%{
+        transform: translateY(2%) scaleX(1.0);
+    }
+    60%{
+        transform: translateY(0%) scaleX(0.9);      
+    }
+    70% {
+        transform: translateY(0%) scaleX(0.8);
+    }           
+    100%{
+        transform: translateY(0%) scaleX(1.0);        
+    }
+}
+
+@-webkit-keyframes slideExpandUp {
+    20% {
+        -webkit-transform: translateY(100%) scaleX(0.5);
+    }
+    30%{
+        -webkit-transform: translateY(-8%) scaleX(0.5);
+    }   
+    40%{
+        -webkit-transform: translateY(2%) scaleX(0.7);
+    }
+    50%{
+        -webkit-transform: translateY(2%) scaleX(1.0);
+    }
+    60%{
+        -webkit-transform: translateY(0%) scaleX(0.9);      
+    }
+    70% {
+        -webkit-transform: translateY(0%) scaleX(0.8);
+    }            
+    100%{
+        -webkit-transform: translateY(0%) scaleX(1.0);        
+    }
+}
+
+.hatch {
+	animation-name: hatch;
+	-webkit-animation-name: hatch;	
+
+	animation-duration: 4s;	
+	-webkit-animation-duration: 4s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;
+
+	transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%; 
+
+	visibility: visible !important;		
+}
+
+@keyframes hatch {
+	0% {
+		transform: rotate(0deg) scaleY(0.6);
+	}
+	20% {
+		transform: rotate(-2deg) scaleY(1.05);
+	}
+	35% {
+		transform: rotate(2deg) scaleY(1);
+	}
+	50% {
+		transform: rotate(-2deg);
+	}	
+	65% {
+		transform: rotate(1deg);
+	}	
+	80% {
+		transform: rotate(-1deg);
+	}		
+	100% {
+		transform: rotate(0deg);
+	}									
+}
+
+@-webkit-keyframes hatch {
+	0% {
+		-webkit-transform: rotate(0deg) scaleY(0.6);
+	}
+	20% {
+		-webkit-transform: rotate(-2deg) scaleY(1.05);
+	}
+	35% {
+		-webkit-transform: rotate(2deg) scaleY(1);
+	}
+	50% {
+		-webkit-transform: rotate(-2deg);
+	}	
+	65% {
+		-webkit-transform: rotate(1deg);
+	}	
+	80% {
+		-webkit-transform: rotate(-1deg);
+	}		
+	100% {
+		-webkit-transform: rotate(0deg);
+	}		
+}
+
+
